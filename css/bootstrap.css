@@ -2011,8 +2011,13 @@ pre code {
 }
 
 .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px
+    
 }
 
 .col-lg-1,
@@ -3188,7 +3193,9 @@ fieldset[disabled] .form-control {
 }
 
 textarea.form-control {
-    height: auto
+    height: auto;
+    width: 95%;
+    margin-bottom: 40px;
 }
 
 input[type=search] {

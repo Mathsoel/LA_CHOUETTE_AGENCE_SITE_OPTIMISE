@@ -866,7 +866,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F06B2D!important;
+    color: #FFFFFF!important;
 }
 
 .tc-color {
@@ -886,7 +886,7 @@ p.tc-color {
 }
 
 .btn-form{
-    margin-left: 340px; 
+    margin-left: auto; 
 }
 
 .col-padding{
@@ -936,7 +936,7 @@ p.tc-color {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1136,7 +1136,7 @@ p.tc-color {
         height: 320px;
     }
     .btn-form{
-        margin-left: 140px; 
+        margin-left: 10px; 
     }
     label{
         display:inline-block;
